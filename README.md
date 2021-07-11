@@ -3,17 +3,17 @@
 https://desolate-woodland-27514.herokuapp.com/
 
 
-# Technology Used:
+# Tech-Stack Used:
 
-Node.js  
-socket.io  
-express  
-peerjs  
-webrtc  
-react  
-react chatengine  
-axiom  
-cors  
+1.node.js  
+2.socket.io  
+3.express  
+4.peerjs  
+5.webrtc  
+6.react  
+7.react chatengine  
+8.axiom  
+9.cors  
 
 
 # Demo
