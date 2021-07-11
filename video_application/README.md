@@ -1,3 +1,14 @@
+
+# https://peaceful-fjord-52034.herokuapp.com/1234 
+
+# Tech-Stack:  
+1. node.js  
+2. socket.io  
+3. express  
+4. peerjs  
+5. cors  
+
+
 ![video3](https://user-images.githubusercontent.com/54748438/125209636-d081eb80-e2b7-11eb-8891-afc06c5b7264.PNG)
 
 
