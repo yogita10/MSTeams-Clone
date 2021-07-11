@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Video Calling</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABFFBMVEUac+j////x8/QYWrwadesTb+eLuPQxguoXcej7/f8AW+UbdOgAaef4+PQadOsZa9qEq+0ASLcTVbrO4fpPiOu+wse1x+mVu/PR1Njx9vTw8vS1ub/r7O7A1/h1qvFrpPB/sPI0eehvp/H///aCqO0YVra5y+oAWM8Aa+fz+P4AZOYAYOYAYdvi7fzt8/0rfuoANbETZdhbmu9Mku2jxPXk7vwLTLcwb9gAQLMZY81Xit0TXMy30fXH3fk9i+xSlu5SjeyyyvYAT+OPvfTM4PJtlt7h3NXDwLupsMO2ur44Zb7p5Nq9xtmgtt6RqdqhvOx+nNRukNcARscAUMs6cMFZf8kARa4AJKmCo9tAetlqleBXhdoPLlz4AAANxElEQVR4nO3de3uayB4H8CEMCo5RE9JwNj1oTGwUIxji3aCpu8m22z2t7TnNOTF5/+/jzKAmGlFguAg+/f6zl6erfPY3NwYQwIQQRRUHxqgp/ZEIIU1ZW/pyEJxLEARFlZuJ/PXtECcZVoaNvKEJAQsFRdHEUaJwa7rqxSJCAPBcKAGomBxeG8rcGIBQ0XDl8rdYVieyKYzHAXzwId+Bv60+zItCMEJNFZv5BqkbAiYM8CD8EOO1IfgvxMWTCsOZjt8GbcGIGlOif0I8qiSuh8kiaZdbxc0yJ/olVAe4embxtlu7hXDgVvRLqIgj3PeKiI+MzgyHzhRfhArpfHUUjba5FK4+ErwLNeP0NlkEESvfNDzfULwKNdw8cfm2MyfYhwOyN6FgFBr1aJZvlkrBk1C+HtYj2PsWwyGNXiieNep4FRjt8JxMK1RPh3WuEun6kfDpP+iEyui2jqLvw6mc0ggFMZ9EkW+g03AFCmGr2ShGfIB5DYVQEc/qKC4+GiEuYBTXZ2vjWiiexqmAwLVQMa7j0wOncSdsScN4FRC4FOIWGuUlqHXcCAfXxbgVELgRCqMGisccvxzHQkUaghhW0LlQSyRjskp7G4fC1mk9lgUEToXqWTzOI6ziSKgWYjcLvsaJkAAB2vaR0saB0KxgbIEOhOp1rIH2wlj3QRI7Yess3hW0FWqncR5kzGwWKolizCtoIxSketwraCNsJmNfwc1CeRjvUXSaDcK7RkzPJpazXtjKg10ArhcKUsxn+nnWCo36TlQQC8+shWJjNyq4VtjK78QoQ2ItFJqV2O2Lrou1UEzGdtNiJZZCrZDeGaClcJfaqLVQTO7KKENiIRQKOzOOklgIR7G8PLE2q0JluDvjKMmq8HSn2qiFUOMq2z4mf7Mi3KWp0Mxb4aC4YyUEXH5Z2NitYQasCI36rpXwjVC43q1xlGRZONqVE/uFLAnxes1TL0Q2m6v2e692n0CRJaHhYcmNeC7tRyq8z8pFoXBGW0IEKulqBRSTRx6TLHLpatrXKwmLwsERXQkRqlQryULTkAeixwzkUe4jqFZ9vJiwKEzQlRDx1cptU1x+9pY+iirnipdp34gLQvWWarZHlcuPI1XYdNBuo4ml6qVf3XFB2KQ6L0TVdK7lq880yijlU298FWpnNMsZVOVGit8+EvWjT8RX4SBJIUTViux7Aadp3aZ8aagvQkGiGGdwHzSC8RHiMOWLcP5EiUqzJEW//xEYEB8SV/WB+FJDg2KcKf5+GyCQYeTLynqi0y3duVCQqq4bKUqnAhlkXqKVLtf6qpeXaUfrgrlQvU27BeI2ehookGFEZD3zo0r6NnGaTHMOiHOh7P4pV/w1fq1j1mVNEVG62jw/P289OdlTmgkVyf16BqUKAQPx6MBZ9EQTuH+yd3535KDhzYSta/eNlE8FN1PMIx5ZDKfVyogAT/b3Ss6FovstNpQGQTdS0kxXB8AqbxDg3t7+bzkHzXQqFEbud0nR5TDYkdRMM708iSFwiWZALCw5FmpnFCNpqhDQem0xo+UteAwszoGuhCrFmhSlEiEIjaX5ggDl/RnQqdBctQ1orsakpBCEcnFBiIH1V6AbodB030i3ICTAwf7+3p57oZKnWeKGLZwC904WhI7GUiLUhjTbIiELSR8Uz397BboRqlQbNGELL4t35wsVdCU0qK4ZhitcBboQCs21JymREaLLuvoG6EZYoDqXDlGIQCrZOj9ZBroQKlQDTYhCDDxaBboQanSX7kMTIj51dLIKdCEU3W9ghCrkUx81C6ALIcWJRZhC7vIaA1d8boR0Q2lYwmq1/+e5hc+NkOLUKTwhSN3/9afgUdigu/8iFKGRfvr06R9ehUm6i3Xh1PD+/af3XoUa5bMxoQj/+e7dO89CkfI2qJCE770LtdSuC9UUFTBGQqotjF/CSAklytsR4yNM7LzwlPJmtvgI87+Ev4S7KwzjyowPwsQv4Q4IqWeLeAgrCZDYbaGXVVsYwv1PPrTSZpSF6vtPXlupBI6j3EqP2c9//uVN2AQXUa7hxeHhZ297bRUDiLTnh6EIv1yxn//2IkwPQKsCoyxsHxz+i6EXwrQKhGwm0kL2oH1hSXQmBApgkhEWyljIHhxYEp0J6wxgbil3E0MRdtofWLbdPbYgOhLyDSwsRbmGxRpLiAdfmX0qIUfewiJR7uqHI0wjk9heJToSVhJYaKSpBtOwhHBOFPZphCMsVKMtRBkwJX57Q3QihGkRC5UiVUcMSwjAlHjY/qbsuxYijQgbkRYigCCcEwWXQn5I3tkl3Geo7voKRVg37xiCsEeIB0tVdCLkCuS9a8KYau0dinAwvesLwYxJ7D4qLzfQOhJWJPPNciLNUBPOXdAv97VlpsSr78rCPcK2QpgemG8H1OoUHRGl8mHe5z1vqFfftdf7vO2FeKAxhTTrNpS6Dvde/cxbogMh35gKlQTnvpmi6iT45y2EbwvPW8DMC9GpkMtN32EpyBWKZlopq4ELWz+qC//vcV9kCfGHZt7ubS+EFfKqVfN5C5o5H/77a+DCuy+1xdY1Jz60mN/2TvZP7qs2x4hIEcxnZmgekYX/+Rk0UPjaXu4/mUwWz/2YqDICIxx3bKY5rtGaCRWJYicjo3fFgIXqwwFaPjAICZHtPlzc3X39ebP5qGElocyEzIB3L4TZ7kOwQOG4fQPfHBg0q8i22Yefh+2sjZCTmblQHbqfLyA4vLoIVNj6ebBqmFWx3W4fsjY7TPyR+iLUchTNFPb++yXIRxCVxy67KkQgk/2AiSSbawgrJe1FyBxTzIj4m7o/ggPiNnrYA1ZVygCT+MGmhhCf/b4KxSOaZsp+6H4PTDg4bK8pEk++Gaf3tpO++WNJcUGolaia6Qc2MOJF+4BlkfVB4dP+HtvLZuCmG2MhN22k8/cBUzVThOem7o9A+uL46oDFRVrzzfhsCsKMzY+fzBrpXCg2KFbfuCey7BXr/4iqPfzvEPezzUWyCT8Ul4RKjqKIIEMG7oPujzvBx/MMQfvWvjKHyoyXX/4wV90LQua4SPHrLbM9om774bilKIL3KIo2+M5etclQ6Q3IoxGzLFSfaH6+JWNuZrLtbpd9ePx6fDHLMWW+Pv740u4SH+6Entoo4PrqGyEzprp8MSOyhxjZPWgfmJn9xX3IZxyaPlxBuosNL0KJeSscfKQiQtCbLzHYQ49h5yGTOd1VzXn4I3lFKJTorl+YC8UPrH/BH9ZDdlOBrbCkrAgZI0l3mS1D5l9zkeGHDn8Imcu9AusjZlWo0Iw1UyME2Z53nplelnye1x+I4p40CyEzLtK2fYgDUNZ7yGd57IHm8RTHjJVQefbwA63QYTKbAv3g4fDPmqUQF9HbCB2VZIoSYy0UJrvxS9D80lbu0m9Bj212PuIRmF0s4bKQ6exEETvMeqGhx7+IUG9uEDITmpOoSAVyE2aTUKzFXliTNwqZJ8ob+aISyPWZzcJWNuaDjf72ktjKe2bGsW6nsCa9Ba0I8dotvkQ8zKxct11939MgC+JKhECXVzwW7+ySYttOYS23uuln8d61Vj+m7RRyzxZX3q3enXcRz3aK26hhsW9rJVTiOZ7icdTq9hDLd1iqcZz3YaVveXeI9XtI5QnFde/tBvId6x/FXfMu2bG+7SN2HX1sTVn3PuDHWrx2NDJ6ac09Wuve6aw+xWrKgJx1J9wgjFdXhPxkdTFjJ2RGndgQ8SgzWutYL2TGcZn4Ia9/W8/YIBQedX82aAMOhGtHGRsho93rm2/oiEQw8Km1QbFJiNfgtegTYW3tMGovZNTnyK9QoT7ZfCvvZiEjTnTPl7qCDG6iE5ubQG2EJnHbjA2xB9oKI11FBxV0IDSJ0SyjI6ADYWSJzoBOhIz4HMVJA8KaE6AjIaP29cgt4CDQN8+DroSMeh81IgY+OXukxZmQ0UrZSJ0vQq5X2rRUcy9klHEnOuMNHmM6lvtqXoT4fHGiW95YHn5wC52MHB+3cyEz6NcicU4MQa2/9ozek5BRS/r2WypuoXrJzfNIboS4M05qWx5TcQE7Y1c3z7sSMozcL3NbLCOEfNlNC6UQMuq3rL613gh5Pft45/KI3QoZRX7eUhkh5MrPF66fzXUtZAT1MbuNFQ6eI7I5incruxeSB4efyzoMd27MQL38LNM8XE0jxIs4qVcG0NMDEW6CcK+46Ul0zx/RCcl1jbIOQtpOxc1FL/dpn8mlFeIlzuQGd8fgjfgr9Jv1lyUCFJKVag/PHMEaia/XadofTCBCRpACNuIZXu9NHJ9G+C/EQ874uaNzAc0dEHB651lyeB4YkJBhWuOnjq7zwGcl/jRe1ztPY48+H4S4jkZp4rORfJKuT0ojHx5Q9UFIVnJSv1PDSF+6JP4QXq91+hLVBL8SX4Q46nHuWdf16QF60REeLl/u+M6n51L9EuLGKo5IazUrSaWEL7z7kejf89P+CXFa4jFG1vQsWWdB5w+gIVOHQBb/t7jziZ5Hl8X4KsTRVNIny7VZg7Wv5vzP6Hqt3OknZFXz+deZ/BbiKC3VyGFlGTe47NwAF7VL/4bHOL2MdbjrtQL4ZaYAhDiCommDcWGSLZdJOc3H7pbarPn3WZ0UrlzOTgqSrGlKMD+tFYzQjICdopEo9DsESnKDtUR1M/tnvdMvJAwR2wL83bAAha9R1IExkhK5fKFQeHp6KuRzCWlkDNQQ3s7OMP8HrSXruzcZi94AAAAASUVORK5CYII=">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script>
+        const ROOM_ID =  "<%=roomId%>"  ;
+    </script>
+
+
+<script src="/socket.io/socket.io.js" ></script>
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js" ></script>
+    
+</head>
+<body>
+
+
+    <div class="main">
+        <div class="main__left">
+
+            <div class="main__videos">
+
+                <div id="video-grid">
+  
+                </div>
+
+
+            </div>
+
+            <div class="main__controls">
+                <div class="main__controls__block">
+                    <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+                        <i class="fas fa-microphone"></i>
+                        <span>Mute</span>
+                    </div>
+
+                    <div onclick="playStop()" class="main__controls__button  main__video_button">
+                        <i class="fas fa-video"></i>
+                        <span>Stop Video</span>
+                    </div>
+
+
+                    <div onclick="ScreenShare()" class="main__controls__button  main__screen-share_button">
+                        <i class="fas fa-desktop"></i>
+                        <span>Share Screen</span>
+                    </div>   
+
+                    
+
+                </div>
+   
+                
+
+                <div class="main__controls__block">
+                <div id="inviteButton" class="main__controls__button">
+                        <i class="fas fa-user-plus"></i>
+                </div>
+                <div class="main__controls__button">
+                    <span onclick="exit()" class="leave_meeting">Leave Meeting</span>
+                    
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="main__right">
+
+            <div class="main__header">
+                <h3>Chat</h3>
+            </div>
+
+        <div class="main__chat_window">
+            <ul class="messages">
+
+            </ul>
+        </div>
+
+        <div class="main__message_container">
+            <input id="chat_message" type="text" placeholder="Type message here....">
+            <div id="send" class="main__controls__button" >
+                <i class="fas fa-paper-plane" aria-hidden="false"></i>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" ></script>
+    <script src="screenshare.js" ></script>
+</body>
+</html>

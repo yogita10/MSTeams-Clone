@@ -1,0 +1,20 @@
+{
+  "name": "microsoft_teams_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"cd chat_application && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogita10/teams-clone.git"
+  },
+  "author": "yogita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogita10/teams-clone/issues"
+  },
+  "homepage": "https://github.com/yogita10/teams-clone#readme"
+}

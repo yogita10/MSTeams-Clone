@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#video-grid{
+    display: flex;
+    justify-content: center;
+    padding: 1rem; 
+
+    border-radius: 5px;
+    
+}
+
+video{
+    height: 300px;
+    width: 400px;
+    
+    padding: 1 rem;
+    border-radius: 30px;
+}
+
+.main{
+    height: 100vh;
+    display: flex; 
+    padding: 1 rem;
+    border-radius: 40%;
+}
+
+.main__left{
+   flex: 0.8; 
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.main__right{
+   flex: 0.2;
+   display: flex;
+   flex-direction: column;
+   background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+   
+   border-left: 1px solid #3D3D42;
+  
+}
+
+.main__videos{
+    flex-grow: 1;      
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 0px;
+    padding: 1rem;
+}
+
+.main__controls{
+    display: flex;
+
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.main__controls__block{
+    display: flex;
+
+}
+
+.main__controls__button{
+    display: flex;
+    flex-direction: column; 
+    justify-content:center ;
+    align-items: center;
+    padding: 8px 10px ;
+    min-width: 80px;
+    cursor: pointer;
+
+}
+
+.main__controls__button i{
+    font-size: 24px;
+}
+
+.main__controls__button:hover {
+
+    background-color: darkorange;
+    border-radius: 5px;
+}
+
+
+
+.main__header{
+    
+    color: black;
+    font-weight: 700;
+    text-align: center; 
+    font-size: 23px ;
+}
+
+.main__chat_window{
+    flex-grow: 1;
+    overflow-y: scroll;
+    
+}
+
+.main__message_container{
+    padding: 22px 12px;
+    display: flex;
+}
+
+.main__message_container input{
+    flex-grow: 1;
+    border-radius: 10px;
+    color: black;
+   
+}
+
+.messages{
+    color: black;
+    
+    list-style: none;
+}
+
+.unmute , .stop{
+    color: #CC3B33;
+}
+
+.leave_meeting {
+    color: #EB534B;
+    font-weight: 600;
+}
+
+#send{
+    color: white;
+}
