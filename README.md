@@ -2,6 +2,14 @@
 
 https://desolate-woodland-27514.herokuapp.com/
 
+User1:
+Username: Yogita
+Password: 1234 
+
+User2:
+Username: Vansh
+Password:1234
+
 
 # Tech-Stack Used:
 
